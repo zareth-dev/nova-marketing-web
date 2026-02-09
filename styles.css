@@ -1,4 +1,4 @@
-
+/* Reset y Variables */
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ body {
     padding: 0 2rem;
 }
 
-
+/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -74,7 +74,7 @@ body {
     color: var(--color-accent);
 }
 
-
+/* Hero Section */
 .hero {
     height: 100vh;
     background-color: var(--color-dark);
@@ -138,7 +138,7 @@ body {
     margin: 2rem auto 0;
 }
 
-
+/* Section Titles */
 .section-title {
     font-size: 2.5rem;
     font-weight: 300;
@@ -200,6 +200,7 @@ body {
     opacity: 0.8;
 }
 
+/* Servicios Section */
 .servicios {
     padding: 8rem 0;
     background-color: var(--color-dark);
@@ -253,7 +254,7 @@ body {
     line-height: 1.7;
 }
 
-
+/* Productos Section */
 .productos {
     padding: 8rem 0;
     background-color: var(--color-light);
@@ -323,7 +324,7 @@ body {
     opacity: 0.7;
 }
 
-
+/* Footer */
 .footer {
     background-color: var(--color-dark);
     color: var(--color-light);
@@ -424,7 +425,7 @@ body {
     opacity: 0.5;
 }
 
-
+/* Responsive Design */
 @media (max-width: 1024px) {
     .hero-title {
         font-size: 5rem;
@@ -507,3 +508,26 @@ body {
         padding: 2rem 1.5rem;
     }
 }
+
+   
+
+
+    
+
+
+
+
+
+
+    
+
+    
+
+
+    
+
+
+
+    
+
+   
