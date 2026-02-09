@@ -2,55 +2,189 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>NOVA | Innovar para destacar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA - Innovar para destacar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header class="hero">
-        <h1 class="logo">NOVA</h1>
-        <p class="slogan">Innovar para destacar</p>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">NOVA</div>
+            <ul class="nav-links">
+                <li><a href="#esencia">Esencia</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="esencia">
-        <h2>Esencia de la marca</h2>
-        <p>
-            NOVA nace cuando una idea alcanza su máximo potencial y se transforma en luz,
-            dirección y propósito. No seguimos tendencias, marcamos el ritmo. Convertimos
-            lo común en extraordinario y las ideas en impacto real.
-        </p>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">NOVA</h1>
+            <p class="hero-slogan">Innovar para destacar</p>
+            <div class="hero-line"></div>
+        </div>
     </section>
 
-    <section class="servicios">
-        <h2>Marketing y Branding</h2>
-
-        <div class="servicios-grid">
-            <div class="card">
-                <h3>Identidad de Marca</h3>
-                <p>Construcción de marcas sólidas, coherentes y memorables.</p>
-            </div>
-
-            <div class="card">
-                <h3>Estrategia Creativa</h3>
-                <p>Ideas estratégicas que conectan y generan valor.</p>
-            </div>
-
-            <div class="card">
-                <h3>Diseño Visual</h3>
-                <p>Diseño elegante alineado con la esencia de cada marca.</p>
-            </div>
-
-            <div class="card">
-                <h3>Marketing Digital</h3>
-                <p>Presencia estratégica en medios y redes sociales.</p>
+    
+    <section id="esencia" class="esencia">
+        <div class="container">
+            <h2 class="section-title">Esencia de la Marca</h2>
+            <p class="section-subtitle">Lo que nos define y nos impulsa</p>
+            <div class="esencia-grid">
+                <div class="esencia-card">
+                    <div class="esencia-icon">◆</div>
+                    <h3>Innovación</h3>
+                    <p>Rompemos esquemas y creamos nuevas formas de comunicar. La innovación está en nuestro ADN, impulsando cada proyecto hacia territorios inexplorados.</p>
+                </div>
+                <div class="esencia-card">
+                    <div class="esencia-icon">◇</div>
+                    <h3>Estrategia</h3>
+                    <p>Cada acción tiene un propósito. Diseñamos estrategias precisas que conectan tu marca con tu audiencia de manera efectiva y memorable.</p>
+                </div>
+                <div class="esencia-card">
+                    <div class="esencia-icon">○</div>
+                    <h3>Transformación</h3>
+                    <p>Convertimos ideas en realidades tangibles. Transformamos conceptos abstractos en experiencias de marca que generan impacto duradero.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer>
-        <p>© 2026 NOVA — Crecer no es hacer más, es hacerlo mejor.</p>
-    </footer>
+    
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Soluciones integrales de marketing y branding</p>
+            <div class="servicios-grid">
+                <div class="servicio-item">
+                    <span class="servicio-numero">01</span>
+                    <h3>Identidad de Marca</h3>
+                    <p>Creamos identidades visuales únicas que reflejan la esencia de tu negocio y conectan emocionalmente con tu audiencia.</p>
+                </div>
+                <div class="servicio-item">
+                    <span class="servicio-numero">02</span>
+                    <h3>Estrategia Digital</h3>
+                    <p>Desarrollamos estrategias digitales integrales para posicionar tu marca en el ecosistema digital de manera efectiva.</p>
+                </div>
+                <div class="servicio-item">
+                    <span class="servicio-numero">03</span>
+                    <h3>Diseño Gráfico</h3>
+                    <p>Materiales visuales de alto impacto que comunican tu mensaje con claridad y sofisticación.</p>
+                </div>
+                <div class="servicio-item">
+                    <span class="servicio-numero">04</span>
+                    <h3>Marketing de Contenidos</h3>
+                    <p>Contenido estratégico que atrae, engage y convierte a tu audiencia objetivo.</p>
+                </div>
+                <div class="servicio-item">
+                    <span class="servicio-numero">05</span>
+                    <h3>Branding Corporativo</h3>
+                    <p>Construcción de marcas sólidas con personalidad propia y diferenciación en el mercado.</p>
+                </div>
+                <div class="servicio-item">
+                    <span class="servicio-numero">06</span>
+                    <h3>Consultoría Estratégica</h3>
+                    <p>Asesoramiento experto para optimizar tu presencia de marca y maximizar resultados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    
+    <section id="productos" class="productos">
+        <div class="container">
+            <h2 class="section-title">Aplicaciones de Marca</h2>
+            <p class="section-subtitle">Tu identidad en cada punto de contacto</p>
+            <div class="productos-grid">
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="img/tarjetas.jpg" alt="Tarjetas de presentación corporativas">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Tarjetas de Presentación</h3>
+                        <p>Primera impresión inolvidable</p>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="img/tazas.jpg" alt="Tazas corporativas personalizadas">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Tazas Corporativas</h3>
+                        <p>Tu marca en cada momento</p>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="img/lapiceros.jpg" alt="Lapiceros promocionales">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Lapiceros</h3>
+                        <p>Escritura con identidad</p>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="img/redes.jpg" alt="Diseño para redes sociales">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Redes Sociales</h3>
+                        <p>Presencia digital coherente</p>
+                    </div>
+                </div>
+                <div class="producto-card producto-card-large">
+                    <div class="producto-img">
+                        <img src="img/branding.jpg" alt="Material gráfico de branding">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Material Gráfico de Branding</h3>
+                        <p>Comunicación visual integral para tu marca</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">NOVA</h2>
+                    <p class="footer-tagline">Innovar para destacar</p>
+                    <p class="footer-desc">Transformamos marcas a través de estrategias creativas y soluciones de branding que generan impacto real.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#esencia">Esencia</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p>info@nova-branding.com</p>
+                    <p>+34 912 345 678</p>
+                    <p>Madrid, España</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Behance</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NOVA. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
-
